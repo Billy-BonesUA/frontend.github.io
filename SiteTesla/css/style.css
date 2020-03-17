@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), 
+    url('../fonts/Roboto.woff2') format('woff2'), 
+    url('../fonts/Roboto.woff') format('woff'), 
+    url('../fonts/Roboto.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), 
+    url('../fonts/Robotocondensed.woff2') format('woff2'),
+     url('../fonts/Robotocondensed.woff') format('woff'), 
+     url('../fonts/Robotocondensed.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), 
+    url('../fonts/Robotocondensedbold.woff2') format('woff2'), 
+    url('../fonts/Robotocondensedbold.woff') format('woff'), 
+    url('../fonts/Robotocondensedbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{
+  outline: none;
+}
+a:focus,a:active{
+  outline: none;
+}
+nav,footer,header{
+  display: block;
+}
+html,body{
+  height:100%;
+  width:100%;
+  font-size:100%;
+  line-height:1;
+  font-size:14px;
+  -ms-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;}
+input,button,textarea{
+  font-family:inherit;
+}
+input::-ms-clear{display: none;}
+button{
+  cursor: pointer;}
+button::-moz-focus-inner {
+  padding:0;border:0;}
+a,a:visited{
+  text-decoration: none;
+}
+a:hover,a:focus,a:active{
+  text-decoration: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  opacity: 0.7;
+ }
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{
+  font-size:inherit;
+  font-weight: inherit;
+}
+body{
+font-family: Roboto Condensed, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+background-color: #0B0B0B;
+}
+header{
+  height: 100vh;
+  /*  картинка на весь єкран любого монитора 100% 
+  нельзя тк возьмет высоту от родителя*/
+  position: relative;
+  background: rgba(11, 11, 11, 0.3);
+}
+footer{
+background-color: #690102;
+}
+.container {
+  margin:0 auto;
+  max-width: 1230px;
+  /*паддинг тоже считается так как бордер бох*/
+  padding: 0 15px
+  /* єтот класс центрирует контент
+  паддинг для отступа на безрамочніх устройствах*/
+}
+.header-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  padding-top: 36px;
+  margin-bottom: 29px;
+}
+.header-btn {
+  height: 60px;
+  width: 60px;
+  border: 1px solid #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin-top: 31px;
+ }
+.header-btn div{
+  border-bottom: 2px solid #FFFFFF;
+  width: 36px;
+  margin:5px 0;
+}
+.header-content-title {
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 112px;
+}
+.header-content {
+  margin-top: 40px;
+  width: 284px;
+}
+.content-btn {
+  margin-top: 25px;
+}
+.content-btn {
+  color: #FFFFFF;
+  display: inline-block;
+  border: 2px solid #FFFFFF;
+  padding: 30px 60px;
+  background: rgba(255, 255, 255, 0.15);
+  transition: all .5s;
+}
+.content-btn:hover{
+  background: #770302;
+}
+.slider-top {
+ position: absolute;
+ top: 0;
+ z-index:-1;
+ left: 0;
+ right: 0;
+}
+.slider {
+ }
+.slider__item {
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+}
+.car-specifications {
+  margin-top: 105px;
+}
+.car-specifications-items {}
+.car-specifications-item {}
+.car-specifications__title {}
+.car-specifications__num {}
+.car-specifications__descr {}
+.car-specifications__img {}
+.car-advantage-descr {}
+.car-advantage-row {}
+.car-advantage__title {}
+.car-advantage__contetnt {}
+.car-advantage__img {}
+.car-design {}
+.car-design__img {}
+.car-design__content {}
+.car-design-article {}
+.article-number {}
+.car-design-article__text {}
+.foot {}
+.footer-menu {}
