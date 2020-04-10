@@ -187,6 +187,7 @@ margin-right: 50px;
   background:none;
   color: #FF7171;
   transition: all .5s;
+    line-height: 75px;
 }
 .main-notes {
   display: block;
